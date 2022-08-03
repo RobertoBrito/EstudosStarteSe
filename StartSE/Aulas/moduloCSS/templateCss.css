@@ -1,0 +1,21 @@
+a, .menuitem{
+    text-decoration: underline;
+    color: green;
+cursor: pointer;
+}
+
+.menuitem{
+    background-color: aqua;
+}
+
+a.link{
+    background-color: brown;
+}
+
+.link{
+    font-size: 30px;
+}
+
+#menulist li{
+    margin: 20px;
+}

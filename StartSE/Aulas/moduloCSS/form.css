@@ -1,0 +1,89 @@
+label[for] {
+    background: rgb(231, 231, 222);
+}
+
+.obrigatorio {
+    color: red;
+}
+
+input[type=text] {
+    background: rgb(194, 192, 192);
+    border: 2px solid black;
+}
+
+form div {
+    margin: 10px;
+}
+
+a[href*=va] {
+    background: green;
+    color: white;
+}
+
+option[value=S] {
+    color: blue;
+}
+
+option[value=R] {
+    color: rgb(0, 0, 9);
+}
+
+
+option[value=E] {
+    color: rgb(44, 245, 44);
+}
+
+[placeholder] {
+    color: red;
+}
+
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(81, 81, 230);
+}
+
+a:visited {
+    color: rgb(4, 83, 83);
+    background-color: yellow;
+}
+
+input:focus,
+textarea:focus {
+    border: 10px solid rebeccapurple;
+}
+
+#meuslinks li:first-child a {
+    background-color: red;
+    color: white;
+}
+
+p {
+    background-color: rgb(199, 199, 246);
+}
+
+p.destaque::first-letter {
+    font-size: 30px;
+    background-color: blue;
+}
+
+div::first-line {
+    background-color: rgb(247, 124, 144);
+}
+
+li {
+    color: rgb(138, 240, 138);
+}
+
+::marker {
+    color: red;
+}
+
+::selection{
+    background-color: rgb(241, 241, 118);
+    color: rgb(243, 122, 122);
+}
